@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14;
+}
+a {
+  text-decoration: none;
+}
+section {
+  height: 100vh;
+  display: flex;
+}
+section:first-child {
+  height: 120vh;
+  display: flex;
+}
+
+body nav {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  font-size: medium;
+  font-family: Josefin Sans;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  width: 75%;
+  z-index: 3;
+  right: 0;
+  top: 5%;
+  background-color: #ffffff;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.one {
+  position: relative;
+  background-color: #5ba6a2;
+  justify-content: space-around;
+}
+.one .Pictures {
+  width: 280px;
+  height: 70px;
+  background: url("Pictures/VISUALLY_1.png");
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  opacity: 1;
+  left: 3%;
+  top: 5%;
+}
+.one .welcome {
+  width: 500px;
+  color:rgb(255 255 255 / 85%);
+  position: absolute;
+  top: 250px;
+  left: 5%;
+  font-family: Josefin Sans;
+  font-weight: bolder;
+  font-size: 66px;
+  opacity: 1;
+  text-align: justify;
+}
+.one .welcoming {
+  width: 543px;
+  color: rgb(0 0 0 / 83%);
+  position: absolute;
+  top: 480px;
+  left: 5%;
+  font-family: Josefin Sans;
+  font-weight: lighter;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.one .register {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 650px;
+  left: 5%;
+  font-family: Josefin Sans;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
+.one .aboutProduct {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 650px;
+  left: 25%;
+  font-family: Josefin Sans;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
+.one .imagenes {
+  width: 50%;
+  height: 100%;
+  background-image: url("one-imagenes/Diseño\ sin\ título\ \(4\).png");
+  background-position: center center;
+  backface-visibility: hidden;
+  position: absolute;
+  background-size: cover;
+  right: 0;
+  z-index: 1;
+}
+.two {
+  position: relative;
+  background-color: white;
+  justify-content: center;
+}
+.two h1 {
+  width: px;
+  color: rgba(66, 75, 90, 1);
+  position: absolute;
+  display: inline;
+  top: 90px;
+  font-family: 'Josefin Sans';
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  z-index: 2;
+}
+.two .box {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 200px;
+  background-color: rgb(242, 245, 247);
+  margin: 20px;
+  z-index: 2;
+}
+.two .box h2 {
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: 'Josefin Sans';
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.two .box span {
+  color: rgb(54 52 52);
+  position: absolute;
+  top: 200px;
+  font-family: 'Josefin Sans';
+  font-weight: normal;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
+.three {
+  position: relative;
+  background-color: #5ba6a2;
+  justify-content: center;
+}
+.three h1 {
+  width: 826px;
+  height: 100px;
+  color: #1c1c1c;
+  position: relative;
+  top: 84px;
+  font-family: 'Josefin Sans';
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.three h2 {
+  width: 500px;
+  color: #ffffff;
+  position: absolute;
+  top: 180px;
+  font-family: 'Josefin Sans';
+  font-weight: inherit;
+  font-size: 27px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client-picture {
+  width: 179px;
+  height: 179px;
+  background: url(./client-picture/Persona\ ciega.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 328px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-bottom-right-radius: 204px;
+  overflow: hidden;
+}
+.three .client-title {
+  width: 40px;
+    color: #ffffff;
+    position: absolute;
+    top: 520px;
+    font-family: 'Josefin Sans';
+    font-weight: lighter;
+    font-size: 17px;
+    opacity: 1;
+    text-align: center;
+}
+.three .client {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 180px;
+  font-family: 'Josefin Sans';
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.four {
+  position: relative;
+  background-color: white;
+  justify-content: center;
+}
+.four h1 {
+  width: 270px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 63px;
+  font-family: 'Josefin Sans';
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.four h2 {
+  width: 557px;
+  color: rgba(79, 92, 104, 1);
+  position: absolute;
+  top: 135px;
+  font-family: 'Josefin Sans';
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.four .container-box {
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  top: 190px;
+  justify-content: center;
+}
+.four .apple {
+  width: 155px;
+  height: 100px;
+  background: url("./apple/applestore.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  right: -30px;
+  position: absolute;
+}
+.four .google {
+  width: 165px;
+  height: 100px;
+  background: url("./google/googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  left: -30px;
+  position: absolute;
+}
+.four .phone-screen {
+  width: 340px;
+  height: 565px;
+  background: url(phone-screen/play-store-apk-principal.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 313px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.four .phone-border {
+  width: 500px;
+  height: 800px;
+  background: url("phone-border/5cb0633d80f2cf201a4c3253.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  overflow: hidden;
+  z-index: 1;
+
+}
+.five p {
+  width: auto;
+  color: rgb(255 255 255);
+  position: absolute;
+  top: 220px;
+  font-family: 'Josefin Sans';
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+}
+.six {
+  position: relative;
+  background-color: #5ba6a2;
+  z-index: 3;
+  justify-content: center;
+  overflow: hidden;
+}
+.six h1 {
+  width: 414px;
+  color: rgba(39, 46, 61, 1);
+  position: absolute;
+  top: 140px;
+  font-family: 'Josefin Sans';
+  font-weight: bolder;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.six span {
+  width: 300px;
+  color: white;
+  position: absolute;
+  top: 235px;
+  font-family: 'Josefin Sans';
+  font-weight: Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.six .container-box {
+  width: 500px;
+  height: 400px;
+  top: 300px;
+  position: absolute;
+}
+.six .email {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.six .email .letter {
+  width: 50px;
+  height: 50px;
+  background-image: url("./email.letter/letter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+
+  top: 0px;
+}
+.six .email .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  size: small;
+}
+.six .email .content {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 14%;
+  size: small;
+}
+.six .phone {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 175px;
+  justify-content: center;
+  float: left;
+}
+.six .phone .cellphone {
+  width: 50px;
+  height: 50px;
+  background-image: url("phone-cellphone/phone_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.six .phone .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.six .phone .content {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 16%;
+  size: small;
+}
+.six .address {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+.six .address .point {
+  width: 50px;
+  height: 50px;
+  background-image: url("address-point/placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.six .address .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.six .address .content {
+  width: 120px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 10%;
+  size: small;
+}
