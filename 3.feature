@@ -1,4 +1,4 @@
-Feature; US03: Tener la opción de activar y desactivar el comando de voz
+Feature: US03: Tener la opción de activar y desactivar el comando de voz
 
 Como usuario quiero configurar el comando de voz por defecto de la aplicación.
 
