@@ -7,7 +7,7 @@ Scenario: E02-Me registro con una cuenta de facebook
          And Seleccione el tipo de rol (extranjero o ciego)
          And Ingreso mis datos
          And se me asigna un código de seguridad de datos
-         And se registra facialmente al usuario
+         And se registra facialmente al usuarioo
         
 
 
