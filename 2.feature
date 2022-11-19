@@ -1,7 +1,7 @@
 Feature: US02: Compartir ubicación 
 
 El usuario quiere compartir su ubicación real a sus contactos 
-#...........................................................................................
+#..........................................................................................
 
 Scenario: E01-Comparto mi ubicación desde la app
 
