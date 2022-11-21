@@ -13,7 +13,7 @@ Feature Calificación a la aplicación
          And dejo mi opinión
          And le doy una valoración con estrellas
          
-
+ 
     Then  Guardo los cambios y se publica en esa sección
 
 
