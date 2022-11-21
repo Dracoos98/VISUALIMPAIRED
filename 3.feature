@@ -7,13 +7,13 @@ Como usuario quiero configurar el comando de voz por defecto de la aplicación.
 Scenario: E01-Me encuentro en el sitio de configuraciones y tengo muchas opciones
 
 
-    Given Me encuentro dentro del  aplicativo
+    Given Me encuentro dentro del  aplicativo  
        
-       When  selecciono el botón de configuraciones
-         And cambio el idioma
-         And cambio el tono de voz
+       When  selecciono el botón de configuraciones  
+         And cambio el idioma  
+         And cambio el tono de voz  
          
-    Then Me sale una ventana de configuración realizada
+    Then Me sale una ventana de configuración realizada  
 
 
 
