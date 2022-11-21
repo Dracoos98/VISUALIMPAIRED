@@ -20,8 +20,8 @@ Scenario: E03-Me aparece una ventana de registro facial
     
     When me sale una ventana de escanear rostro 
 
-        |  validar rostro    |
-        |    true            |
+        |  validar rostro   |
+        |    true           |
       And  me confirma el rostro
 
     Then  Ingreso a la aplicación 
