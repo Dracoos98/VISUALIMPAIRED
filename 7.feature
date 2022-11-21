@@ -1,7 +1,7 @@
 Feature Visualización del tiempo de demora de las rutas
 
 
-    Como usuario,quiero saber el tiempo de demora de cada viaje 
+    Como usuario,quiero saber el tiempo de demora de cada viaje  
 #...........................................................................................
 
 Scenario: E01-quiero tomar un vehículo en la hora adecuada
